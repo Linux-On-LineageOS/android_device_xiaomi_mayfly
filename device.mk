@@ -43,3 +43,4 @@ $(call soong_config_set,qti_vibrator,use_effect_stream,true)
 
 # Call the proprietary setup
 $(call inherit-product, vendor/xiaomi/mayfly/mayfly-vendor.mk)
+$(call inherit-product, vendor/lindroid/lindroid.mk)
